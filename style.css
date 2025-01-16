@@ -1,0 +1,33 @@
+
+#wrapper{
+    margin: 2em 5em 10em 5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-image: url(../images/pexels-gdtography-277628-911738.jpg);
+    background-size: 100%;
+    padding: 60vh 0 10px 0;
+    font-size: 200%;
+}
+header h1{
+    margin: auto 1em;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 5vh;
+}
+footer{
+    text-align: center;
+    background-image: url(../images/pexels-gdtography-277628-911738.jpg);
+    background-size: 100%;
+    padding: 5vh;
+}
+a{
+    padding: 7px;
+    font-size: small;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7c7b7b;
+}
